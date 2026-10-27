@@ -1,0 +1,121 @@
+body {
+    background-color: lightpink;
+}
+
+.card {
+    background-color: #ffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #4e2323;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-container {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    margin: 20px;
+}
+
+.button-beli {
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(187, 115, 87);
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    box-shadow: 4px 4px black;
+}
+
+header {
+    margin-inline: 50px;
+    background-color: rgb(187, 115, 87);
+    height: 70px;
+    padding-inline: 30px;
+    color: #ffff;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffff;
+    margin-inline: 8px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.tambah-kuantitas > button {
+    background-color: rgb(187, 115, 87);
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    color: #ffff;
+    margin-inline: 4px;
+    box-shadow: 2px 2px black;
+}
+
+.tambah-kuantitas input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px black;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: blanchedalmond;
+    color: rgb(187, 115, 87);
+    padding: 16px;
+}
+
+.kontak {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 8px;
+}
+
+footer h3, h5 {
+    margin-top: 8px;
+    text-align: center;
+}
+
+form button {
+    border: none;
+    background-color: rgb(187, 115, 87);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 4px 4px black;
+    margin-top: 8px;
+}
+
+form input, textarea {
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 4px 4px black;
+}
